@@ -1,6 +1,4 @@
-import { useEffect } from "react";
-import { useCallback } from "react";
-import { useState, useRef } from "react";
+import { useState, useEffect, useCallback, useRef } from "react";
 
 function App() {
   const [length, setLength] = useState(8);
